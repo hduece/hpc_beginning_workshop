@@ -8,7 +8,7 @@
 #SBATCH --mail-type=begin        # send email when job begins
 #SBATCH --mail-type=end          # send email when job ends
 #SBATCH --mail-type=fail         # send email if job fails
-#SBATCH --mail-user=<YourNetID>@princeton.edu
+#SBATCH --mail-user=hdusab@lsuhsc.edu
 
 module purge
 module load anaconda3/2020.11
